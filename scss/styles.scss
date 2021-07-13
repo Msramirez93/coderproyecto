@@ -1,0 +1,117 @@
+@import "fuentes";
+@import "variables";
+@import "header";
+@import "novedades";
+@import "generales";
+@import "contact";
+
+     
+    #contact {
+        max-width: 960px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 1em;
+      }
+      h2 {
+        background: #ced3dc;
+        font-size: 30px;
+        text-align: center;
+      }
+      .home-pragraph-3 {
+        text-align: center;
+      }
+      nav a {
+        color: black;
+        font-weight: bold;
+        font-size: 1.1em;
+        line-height: 0;
+        text-decoration: none;
+      }
+      main {
+        background-color: white;
+      }
+      .logo-box {
+        background-color: white;
+        border-radius: 50px 50px 0 0;
+        padding: 0.5em;
+        border: 1px solid #a43312;
+        background-image: url(../media/raftinglogo.png) no-repeat;
+        border-radius: 50px 50px 0px 0px;
+      }
+      #banner-box img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .home-left-img {
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 90px;
+        border: 1px solid #000;
+        padding: 5px;
+      }
+      footer {
+        margin-top: 50px;
+        border-top: 2px solid #ccc;
+        padding: 30px 0;
+        color: #fff;
+        font-size: 30px;
+        &p{
+            padding-left: 20px;
+            margin-top: 30px;
+            font-size: 30px;
+            background-size: auto;
+        }
+      } 
+      .social {
+        margin-left: 150px;
+        padding: 15px 15px 10px 20px;
+        width: 100%;
+      } 
+      .action {
+        background-color: rgba(240, 240, 240, 0.8);
+        margin: 1em 3em;
+        padding: 1em;
+        text-align: center;
+        background-image: url(../media/bannerhero.jpg);
+        &.action button{
+            line-height: 2em;
+            width: 10em;
+            background-color: #9eefe5;
+            font-size: 1.2em;
+            &button:hover{
+                background-color: #ca3c25;
+                color: #000;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+            }
+        }
+        h2 {
+            border-top: 5px double;
+            border-bottom: 5px double;
+            padding: 0.3em;
+          }
+          .home-right-img,
+          .home-left-img {
+            border: 1px solid #162521;
+            padding: 3px;
+            /*box-shadow: 3px 3px 3px #Ccbcbc;*/
+            box-shadow: 0 0 50px #333;
+          }
+          .action-righ {
+            background-color: rgba(240, 240, 240, 0.8);
+            margin: 1em 3em;
+            padding: 1em;
+            text-align: center;
+          }
+          .home-healine-1,
+          .home-healine-2 {
+            text-align: center;
+            word-spacing: 5px;
+          }
+          .homeHedaline-2 {
+            text-align: center;
+            word-spacing: 5px;
+          }
+        

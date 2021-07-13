@@ -1,0 +1,28 @@
+#novedades .productos {
+    max-width: 950px;
+    margin: auto;
+    padding-top: 20px;
+    &.box{
+        float: left;
+        padding: 5px;
+        width: 50%;
+        box-sizing: border-box;
+        margin-top: 100px;
+       }&.box .raft{
+        display: block;
+        padding-bottom: 1rem;
+        width: 50%;
+       }&.titulo{
+        font-size: 1.5rem;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+    }
+}
+.clear{
+    clear: both;
+}
+    
+    img:hover {
+        box-shadow: 0 0 50px #4e8098;
+        border: 1px solid black;
+      }

@@ -1,0 +1,46 @@
+.bgColorBlack {
+    background-color: #ced3dc;
+  }
+  
+#header {
+  border-bottom: 1px solid #ccc;
+  min-height: 120px;
+  margin-bottom: 60px;
+  position: fixed;
+  background-color: white;
+  width: 100%
+    /*min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;*/}
+    &#header.logo {
+    margin-left: 20px;}
+    &#header ul {
+    list-style: none;}
+    &#header li {
+    display: inline-block;
+    padding: 0 10px;}
+    &#header li a {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-top: 18px;}
+    &a:hover {
+    background-color: #13273e;
+  }
+
+.botonera {
+    margin-left: 20px;
+    padding-top: 18px;
+}
+.typeR {
+    font-family: $fuente;
+    font-weight: 400;
+  }
+  .typeR .bold {
+    font-weight: 700;
+  }

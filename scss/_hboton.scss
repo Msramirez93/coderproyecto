@@ -1,0 +1,14 @@
+.boton{
+	height: 60px;
+	padding: 20px;
+	background-color: $boton;
+	color: #e1faf9;
+	display: inline-block;
+	text-decoration: none;
+    cursor: pointer;&.boton--derecha {
+        position: absolute;
+        right: 20px;
+        bottom: -25px;
+        cursor: pointer;
+    }
+}

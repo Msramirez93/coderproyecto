@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+    color: #444;
+    background-color: #121420;
+}
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0dfe53;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+   & img{
+    width: 55px;
+    height: 55px;
+   }
+  } 
+  .banner {
+    min-height: 450px;
+    height: 50vh;
+    background-image: url(../mediaclase4/bannerhero.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+  }
+  h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #000000;
+        background-color: #b6f9ca;
+        font-family: "Stint Ultra Condensed", cursive;
+        line-height: 2em;
+        margin: 2em 0em 0em 0em;
+        padding-left: 1.5em;
+      }
+      p {
+        font-family: "Stint Ultra Condensed", cursive;
+        line-height: normal;
+        margin: 0.5em 0em 2em 0em;
+        font-size: 40px;
+      }
+      #footer {
+        margin-top: 50px;
+        border-top: 2px solid #ccc;
+        padding: 30px 0;
+        color: black;
+        font-size: 30px;
+      }
+      .siteCenter {
+        max-width: 1100px;
+        margin: auto;
+      }
+      .textCenter {
+        text-align: center;
+      }

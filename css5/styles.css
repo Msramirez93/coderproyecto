@@ -1,0 +1,277 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Stint Ultra Condensed", cursive;
+  font-weight: 400;
+  color: #444;
+  background-color: #121420;
+}
+#header {
+  border-bottom: 1px solid #ccc;
+  min-height: 120px;
+  margin-bottom: 60px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+#header .centrado {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#header .logo {
+  display: block;
+  float: left;
+  max-width: 160px;
+}
+#header .navegacion {
+  float: left;
+  margin-left: 20px;
+  padding-top: 18px;
+}
+#header li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+#header li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444;
+  font-size: 50px;
+}
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0dfe53;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.btn-wsp img {
+  width: 55px;
+  height: 55px;
+}
+.banner {
+  min-height: 450px;
+  height: 50vh;
+  background-image: url(../mediaclase4/bannerhero.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+#novedades .productos {
+  max-width: 950px;
+  margin: auto;
+  padding-top: 20px;
+}
+#novedades .box {
+  float: left;
+  padding: 5px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+img:hover {
+  box-shadow: 0 0 50px #4e8098;
+  border: 1px solid black;
+}
+#novedades .box .raft {
+  display: block;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+#novedades .titulo {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.clear {
+  clear: both;
+}
+#footer {
+  margin-top: 50px;
+  border-top: 2px solid #ccc;
+  padding: 30px 0;
+  color: black;
+  font-size: 30px;
+}
+.siteCenter {
+  max-width: 1100px;
+  margin: auto;
+}
+.textCenter {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  background-color: #b6f9ca;
+  font-family: "Stint Ultra Condensed", cursive;
+  line-height: 2em;
+  margin: 2em 0em 0em 0em;
+  padding-left: 1.5em;
+}
+p {
+  font-family: "Stint Ultra Condensed", cursive;
+  line-height: normal;
+  margin: 0.5em 0em 2em 0em;
+  font-size: 40px;
+}
+ul li a {
+  font-style: normal;
+  font-family: "Stint Ultra Condensed", cursive;
+  word-spacing: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+ul li {
+  display: inline-block;
+  font-size: 35px;
+  word-spacing: 15px;
+}
+#contact {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+h2 {
+  background: #ced3dc;
+  font-size: 30px;
+  text-align: center;
+}
+.home-pragraph-3 {
+  text-align: center;
+}
+nav a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 0;
+  text-decoration: none;
+}
+main {
+  background-color: white;
+}
+.logo-box {
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  padding: 0.5em;
+  border: 1px solid #a43312;
+  background-image: url(../media/raftinglogo.png) no-repeat;
+  border-radius: 50px 50px 0px 0px;
+}
+#banner-box img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.home-left-img {
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+  margin-top: 90px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+footer {
+  /*background-color: black;
+  margin: 0;
+  color: white;
+  align-items: center;
+  background-size: auto;*/
+  margin-top: 50px;
+  border-top: 2px solid #ccc;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 30px;
+}
+footer p {
+  padding-left: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  background-size: auto;
+}
+
+.social {
+  margin-left: 150px;
+  padding: 15px 15px 10px 20px;
+  width: 100%;
+}
+.action {
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+  background-image: url(../media/bannerhero.jpg);
+}
+.action button {
+  line-height: 2em;
+  width: 10em;
+  background-color: #9eefe5;
+  font-size: 1.2em;
+}
+button:hover {
+  background-color: #ca3c25;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  border-top: 5px double;
+  border-bottom: 5px double;
+  padding: 0.3em;
+}
+.home-right-img,
+.home-left-img {
+  border: 1px solid #162521;
+  padding: 3px;
+  /*box-shadow: 3px 3px 3px #Ccbcbc;*/
+  box-shadow: 0 0 50px #333;
+}
+.action-righ {
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+}
+.home-healine-1,
+.home-healine-2 {
+  text-align: center;
+  word-spacing: 5px;
+}
+.homeHedaline-2 {
+  text-align: center;
+  word-spacing: 5px;
+}
+.mapa {
+  box-shadow: 0 0 50px #4e8098;
+  border: 1px solid black;
+}
+.con {
+  text-align: center;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.number {
+  color: #fff;
+}
+.mediared {
+  height: 40px;
+  width: 40px;
+}
